@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Contacto.h</itemPath>
+      <itemPath>Conversacion.h</itemPath>
+      <itemPath>DtArchivada.h</itemPath>
+      <itemPath>DtContacto.h</itemPath>
+      <itemPath>DtControl.h</itemPath>
+      <itemPath>DtConv.h</itemPath>
+      <itemPath>DtDatoM.h</itemPath>
+      <itemPath>DtFecha.h</itemPath>
+      <itemPath>DtGrupo.h</itemPath>
+      <itemPath>DtImagen.h</itemPath>
+      <itemPath>DtMensaje.h</itemPath>
+      <itemPath>DtParticipante.h</itemPath>
+      <itemPath>DtPrivada.h</itemPath>
+      <itemPath>DtSimple.h</itemPath>
+      <itemPath>DtUsuario.h</itemPath>
+      <itemPath>DtVideo.h</itemPath>
+      <itemPath>Est_Conv.h</itemPath>
+      <itemPath>Fabrica.h</itemPath>
+      <itemPath>Grupal.h</itemPath>
+      <itemPath>ICollectible.h</itemPath>
+      <itemPath>ICollection.h</itemPath>
+      <itemPath>IDictionary.h</itemPath>
+      <itemPath>IIterator.h</itemPath>
+      <itemPath>IKey.h</itemPath>
+      <itemPath>Imagen.h</itemPath>
+      <itemPath>IntKey.h</itemPath>
+      <itemPath>ListDiccIterator.h</itemPath>
+      <itemPath>ListDiccIteratorKey.h</itemPath>
+      <itemPath>ListDiccIteratorObj.h</itemPath>
+      <itemPath>Lista.h</itemPath>
+      <itemPath>ListaDicc.h</itemPath>
+      <itemPath>ListaIterator.h</itemPath>
+      <itemPath>Mensaje.h</itemPath>
+      <itemPath>Nodo.h</itemPath>
+      <itemPath>NodoDicc.h</itemPath>
+      <itemPath>Par.h</itemPath>
+      <itemPath>Privada.h</itemPath>
+      <itemPath>Simple.h</itemPath>
+      <itemPath>StringKey.h</itemPath>
+      <itemPath>Usu_Grupo.h</itemPath>
+      <itemPath>Usuario.h</itemPath>
+      <itemPath>Video.h</itemPath>
+      <itemPath>Visto.h</itemPath>
+      <itemPath>ctrlConv.h</itemPath>
+      <itemPath>ctrlFecha.h</itemPath>
+      <itemPath>ctrlGrupo.h</itemPath>
+      <itemPath>ctrlUsuario.h</itemPath>
+      <itemPath>iConv.h</itemPath>
+      <itemPath>iFecha.h</itemPath>
+      <itemPath>iGrupo.h</itemPath>
+      <itemPath>iUsuario.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Contacto.cpp</itemPath>
+      <itemPath>Conversacion.cpp</itemPath>
+      <itemPath>DtArchivada.cpp</itemPath>
+      <itemPath>DtContacto.cpp</itemPath>
+      <itemPath>DtControl.cpp</itemPath>
+      <itemPath>DtConv.cpp</itemPath>
+      <itemPath>DtDatoM.cpp</itemPath>
+      <itemPath>DtFecha.cpp</itemPath>
+      <itemPath>DtGrupo.cpp</itemPath>
+      <itemPath>DtImagen.cpp</itemPath>
+      <itemPath>DtMensaje.cpp</itemPath>
+      <itemPath>DtParticipante.cpp</itemPath>
+      <itemPath>DtPrivada.cpp</itemPath>
+      <itemPath>DtSimple.cpp</itemPath>
+      <itemPath>DtUsuario.cpp</itemPath>
+      <itemPath>DtVideo.cpp</itemPath>
+      <itemPath>Est_Conv.cpp</itemPath>
+      <itemPath>Fabrica.cpp</itemPath>
+      <itemPath>Grupal.cpp</itemPath>
+      <itemPath>ICollectible.cpp</itemPath>
+      <itemPath>IDictionary.cpp</itemPath>
+      <itemPath>IKey.cpp</itemPath>
+      <itemPath>Imagen.cpp</itemPath>
+      <itemPath>IntKey.cpp</itemPath>
+      <itemPath>ListDiccIterator.cpp</itemPath>
+      <itemPath>ListDiccIteratorKey.cpp</itemPath>
+      <itemPath>ListDiccIteratorObj.cpp</itemPath>
+      <itemPath>Lista.cpp</itemPath>
+      <itemPath>ListaDicc.cpp</itemPath>
+      <itemPath>ListaIterator.cpp</itemPath>
+      <itemPath>Mensaje.cpp</itemPath>
+      <itemPath>Nodo.cpp</itemPath>
+      <itemPath>NodoDicc.cpp</itemPath>
+      <itemPath>Par.cpp</itemPath>
+      <itemPath>Privada.cpp</itemPath>
+      <itemPath>Simple.cpp</itemPath>
+      <itemPath>StringKey.cpp</itemPath>
+      <itemPath>Usu_Grupo.cpp</itemPath>
+      <itemPath>Usuario.cpp</itemPath>
+      <itemPath>Video.cpp</itemPath>
+      <itemPath>Visto.cpp</itemPath>
+      <itemPath>ctrlConv.cpp</itemPath>
+      <itemPath>ctrlFecha.cpp</itemPath>
+      <itemPath>ctrlGrupo.cpp</itemPath>
+      <itemPath>ctrlUsuario.cpp</itemPath>
+      <itemPath>iConv.cpp</itemPath>
+      <itemPath>iFecha.cpp</itemPath>
+      <itemPath>iGrupo.cpp</itemPath>
+      <itemPath>iUsuario.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Contacto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Contacto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Conversacion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Conversacion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtArchivada.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtArchivada.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtContacto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtContacto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtControl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtControl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtConv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtConv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtDatoM.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtDatoM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtFecha.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtFecha.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtGrupo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtGrupo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtImagen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtImagen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtMensaje.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtMensaje.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtParticipante.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtParticipante.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtPrivada.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtPrivada.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtSimple.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtSimple.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtUsuario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtUsuario.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtVideo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtVideo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Est_Conv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Est_Conv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Fabrica.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Fabrica.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grupal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Grupal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ICollectible.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ICollectible.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ICollection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IDictionary.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IDictionary.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IIterator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IKey.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Imagen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Imagen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IntKey.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IntKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListDiccIterator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListDiccIterator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListDiccIteratorKey.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListDiccIteratorKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListDiccIteratorObj.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListDiccIteratorObj.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Lista.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Lista.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListaDicc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListaDicc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListaIterator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListaIterator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Mensaje.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Mensaje.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Nodo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Nodo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoDicc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NodoDicc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Par.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Par.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Privada.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Privada.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Simple.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Simple.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StringKey.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StringKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Usu_Grupo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Usu_Grupo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Usuario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Usuario.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Visto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Visto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ctrlConv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ctrlConv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ctrlFecha.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ctrlFecha.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ctrlGrupo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ctrlGrupo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ctrlUsuario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ctrlUsuario.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iConv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="iConv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iFecha.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="iFecha.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iGrupo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="iGrupo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iUsuario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="iUsuario.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Contacto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Contacto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Conversacion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Conversacion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtArchivada.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtArchivada.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtContacto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtContacto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtControl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtControl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtConv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtConv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtDatoM.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtDatoM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtFecha.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtFecha.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtGrupo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtGrupo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtImagen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtImagen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtMensaje.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtMensaje.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtParticipante.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtParticipante.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtPrivada.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtPrivada.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtSimple.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtSimple.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtUsuario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtUsuario.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DtVideo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DtVideo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Est_Conv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Est_Conv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Fabrica.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Fabrica.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grupal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Grupal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ICollectible.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ICollectible.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ICollection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IDictionary.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IDictionary.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IIterator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IKey.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Imagen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Imagen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IntKey.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IntKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListDiccIterator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListDiccIterator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListDiccIteratorKey.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListDiccIteratorKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListDiccIteratorObj.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListDiccIteratorObj.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Lista.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Lista.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListaDicc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListaDicc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListaIterator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListaIterator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Mensaje.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Mensaje.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Nodo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Nodo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoDicc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NodoDicc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Par.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Par.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Privada.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Privada.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Simple.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Simple.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StringKey.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StringKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Usu_Grupo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Usu_Grupo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Usuario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Usuario.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Video.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Video.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Visto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Visto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ctrlConv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ctrlConv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ctrlFecha.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ctrlFecha.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ctrlGrupo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ctrlGrupo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ctrlUsuario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ctrlUsuario.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iConv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="iConv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iFecha.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="iFecha.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iGrupo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="iGrupo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iUsuario.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="iUsuario.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
